@@ -1,0 +1,12 @@
+.function {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.requals{
+    font-size: medium;
+    font-weight: bold;
+    padding: 0.5rem;
+}
