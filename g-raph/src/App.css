@@ -1,4 +1,8 @@
-.app{
+.app {
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: 24rem 1fr;
+  grid-template-columns: auto 1fr;
+  place-items: center;
+  overflow: hidden;
 }

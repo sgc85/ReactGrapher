@@ -1,15 +1,17 @@
-import './App.css'
-import FunctionList from './components/functionList/FunctionList'
-import Graph from "./components/Graph"
+import "./App.css";
+import VectorList from "./components/VectorList/VectorList";
+import Graph from "./components/Graph/Graph";
+import { VectorProvider } from "./contexts/VectorContext";
 
 function App() {
-  
   return (
-    <div className = "app">
-      <FunctionList />
-      <Graph />
-    </div>
-  )
+    <VectorProvider>
+      <div className="app">
+        <VectorList />
+        <Graph />
+      </div>
+    </VectorProvider>
+  );
 }
 
-export default App
+export default App;
